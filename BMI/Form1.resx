@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="&gt;&gt;lbl_cins.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_dt.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmb_cins.Items1" xml:space="preserve">
+    <value>Kadın</value>
+  </data>
+  <data name="cmb_cins.Items" xml:space="preserve">
+    <value>Erkek</value>
+  </data>
+  <data name="&gt;&gt;lbl_vki.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_kilo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="&gt;&gt;cmb_cins.Name" xml:space="preserve">
+    <value>cmb_cins</value>
+  </data>
+  <data name="&gt;&gt;vKEHesabıToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_yil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_cins.Text" xml:space="preserve">
+    <value>Cinsiyet    :</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_kilo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_boy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vKEHesaplanmasıToolStripMenuItem.Name" xml:space="preserve">
+    <value>vKEHesaplanmasıToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hakkındaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 24</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 50</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_kilo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_vki.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_dt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 109</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vücut Kitle Endeksi Hesaplama</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Hesapla</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_kilo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;çıkışToolStripMenuItem.Name" xml:space="preserve">
+    <value>çıkışToolStripMenuItem</value>
+  </data>
+  <data name="cmb_cins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 21</value>
+  </data>
+  <data name="vKEHesaplanmasıToolStripMenuItem.Text" xml:space="preserve">
+    <value>VKE Hesaplanması</value>
+  </data>
+  <data name="lbl_dt.Text" xml:space="preserve">
+    <value>Doğum Tarihi :</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAKCgAAAEAIABoGgAAFgAAACgAAAAoAAAAUAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wExoqn6Na+3/zWxuf81sbn/NbG5/zWxuf81sbn/NbG5/zWxuf81sbn/NbG5/zWxuf81sbn/NbG5/zWx
+        uf81sbn/NbG5/zWxuf81sbn/NbG5/zWxuf81sbn/NbG5/zWwuf81sbn/NbG5/zWxuf81sbn/NK21/zCh
+        qPP///8B////Af///wH///8B////Af///wH///8B////Af///wE1rrb/NrO7/zazvP82s7v/NrO7/zaz
+        vP82s7v/NrO7/zazu/82s7v/NrO7/zazu/82s7v/NrO7/zazu/82s7v/NrO7/za0vP82s7z/NrO7/zaz
+        u/82s7z/NrO7/zazu/82s7v/NrO8/zazvP82s7v/NrO7/zazvP82s7z/Mqat/////wH///8B////Af//
+        /wH///8B////Af///wE1r7bVNrO7/zazu/82tLz/k9bb/9Pt7/HT7e/x0+3v8dPt7/HT7e/x0+3v8dPt
+        7/HT7e/x0+3v8dPt7/HT7e/x0+3v8dPt7/HT7e/x0+3v8dPt7/HT7e/x0+3v8dPt7/HT7e/x0+3v8dPt
+        7/HT7e/x1e7w8cDn6f82s7v/NrO7/zazvP8voaeu////Af///wH///8B////Af///wH///8BVb7F/zaz
+        u/82s7v/NK+3ov///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B3PHz8je0
+        u/82s7v/Mqat/v///wH///8B////Af///wH///8B////AWXFy/82s7v/NrK6/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wE1s7v/NrO7/zOor/////8B////Af//
+        /wH///8B////Af///wFlxcv/N7O8/zWyuv////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BNrO7/ze0u/8zqK//////Af///wH///8B////Af///wH///8BZcXL/zaz
+        u/81srr/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ATWz
+        u/82s7v/M6iv/////wH///8B////Af///wH///8B////AWXFy/82s7v/NrK6/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wE2s7v/N7S7/zOor/////8B////Af//
+        /wH///8B////Af///wFlxcv/NrO7/zWyuv////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BNbO7/zazu/8zqK//////Af///wH///8B////Af///wH///8BZcXL/zaz
+        u/81srr/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ATWz
+        u/82s7v/M6iv/////wH///8B////Af///wH///8B////AWXFy/82s7v/NrK6/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wE1s7v/NrS7/zOor/////8B////Af//
+        /wH///8B////Af///wFlxcv/NrO7/zWyuv////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BNbO7/zazu/8zqK//////Af///wH///8B////Af///wH///8BZcXL/ze0
+        vP81srr/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ATaz
+        u/83tLv/M6iv/////wH///8B////Af///wH///8B////AWXFy/82s7v/NbK6/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wE2s7v/NrO7/zOor/////8B////Af//
+        /wH///8B////Af///wFlxcv/NrO7/zWyuv////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BNbO7/zazu/8zqK//////Af///wH///8B////Af///wH///8BZcXL/zaz
+        u/81srr/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ATWz
+        u/82s7v/M6iv/////wH///8B////Af///wH///8B////AWXFy/82s7v/NbK6/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wE1s7v/NrO7/zOor/////8B////Af//
+        /wH///8B////Af///wFlxcv/N7O8/zWyuv////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BRMTN/ze0u/8zqK//////Af///wH///8B////Af///wH///8BdNfd/zaz
+        u/82srr/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AU/S
+        2/9Q0tv/Pre+/////wH///8B////Af///wH///8B////AXjc4v9P0dr/R8fP/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wFO0tr/T9Ha/0vEzf////8B////Af//
+        /wH///8B////Af///wF32+L/T9Da/07O2P////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BTdDZ/0/Q2f9Kw8z/////Af///wH///8B////Af///wH///8Bd9ri/07P
+        2f9Nzdf/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AU3P
+        2f9Nz9n/ScLM/////wH///8B////Af///wH///8B////AXbZ4f9Nztj/TM3W/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wFNztj/Ts7Y/0nBy/////8B////Af//
+        /wH///8B////Af///wF22OH/TM3Y/0vL1v////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BS83Y/0zN2P9IwMv/////Af///wH///8B////Af///wH///8Bddfg/0vL
+        1/9KytX/////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BQ7y8E0S2
+        wTFBs74vPLTDEf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////AUrL
+        1/9Ly9j/R7/K/////wH///8B////Af///wH///8B////AXTW4P9Ly9f/ScnV/////wH///8B////Af//
+        /wH///8B////Af///wFDtcDpQ7jD/0fCzf9KydX/S8rW/0vL1/9Kytb/SsrX/0rK1/9Kytb/SsjU/0a/
+        y/9DtsH/QbO+zf///wH///8B////Af///wH///8B////Af///wFKytb/S8rW/0a+yf////8B////Af//
+        /wH///8B////Af///wF01d//SsnV/0jI0/////8B////Af///wH///8B////Af///wFGwcz/ScnV/0nJ
+        1f9Kydb/ScnV/0nJ1f9JydX/SMjV/0jI1f9JydX/SsnW/0nJ1v9JydX/SsnV/0rJ1v9Btb/4////Af//
+        /wH///8B////Af///wH///8BScnW/0rJ1v9FvMj/////Af///wH///8B////Af///wH///8Bc9Te/0jH
+        1P9HxtP/////Af///wH///8B////Af///wFCvclZScfV/0nH1f+g4un/wuzw/8bt8M/G7fJjzO7/DzIy
+        OCnGxsYJ8P//Eef2+HPm9/jX3fT3/63l6/9Jx9X/ScfV/zquuRb///8B////Af///wH///8B////AUjH
+        1f9Jx9X/RLvH/////wH///8B////Af///wH///8B////AXLU3v9HxtT/RsXS/////wH///8B////Af//
+        /wH///8BScbU/0jG1P9Evcr/////Af///wH///8B////Af///wH///8BIB4i2P///wH///8B////Af//
+        /wH///8BgNjh/0fG1P9AtMD+////Af///wH///8B////Af///wFHxtT/R8bU/0O6x/////8B////Af//
+        /wH///8B////Af///wFx0t3/RsXU/0XD0v////8B////Af///wH///8BM8zMBUbE0/9GxdP/PbK+cf//
+        /wH///8B////Af///wH///8B////Af///wEfHiLc////Af///wH///8B////AbLm6/RGxNP/RsTS////
+        /wH///8B////Af///wH///8BRcXT/0bE0/9CuMb/////Af///wH///8B////Af///wH///8BcdLc/0XD
+        0v9FwtH/////Af///wH///8B////AUPC0aBGxNP/RsPS/4D//wL///8B////Af///wH///8B////Af//
+        /wH///8BgICAAiQfJDH///8B////Af///wGz5uYURcTT/0bE0v89sLwq////Af///wH///8B////AUXD
+        0v9Gw9L/QbfF/////wH///8B////Af///wH///8B////AXDQ3P9EwtH/RMHR/////wH///8B////Af//
+        /wFJw9H5RcLS/0K9zP////8B////ASAeI1////8B////Af///wH///8B////Af///wEhHiFlgICAAh8f
+        I0H///8B////AVrJ1/9FwtL/PK272f///wH///8B////AUnb2wdFwtL/RcLS/0C2xP////8B////Af//
+        /wH///8B////Af///wGD1eD/RMHS/0PB0f88rLz6////Af///wE8qLwmRMHR/0TB0f89r77j////Af//
+        /wFVVVUD////ASEeJFb///8B////Af///wH///8BISEmPSEfI4VAQEAE////Af///wF40t7+RMHR/0K+
+        zv9Ns7MK////Af///wFBusr/Q8HS/0PB0f9AtcX/////Af///wH///8B////Af///wH///8Bxerw20O/
+        0P9Dv9D/Q7/Q/0K7y/8/tMT/Q7/Q/0zC0v9Dv9D/QbvN/zqpuT7///8B////Af///wEeHiFN////Af//
+        /wH///8B////ASEcIWP///8B////Af///wE8q7qMQ7/Q/0TA0P9Dv9D/Q77P/z6zwv9Cvc7/RL/Q/0O/
+        0P9Dv9D/PrLBuv///wH///8B////Af///wH///8B////Af///wGb3Ob/Qr7Q/0K+0P9CvtD/Qr7Q/0K+
+        0P9pzNr/dtDd/2TK2P9CvtD/PK/A/jmnt0P///8B////Af///wH///8B////Af///wH///8B////ATur
+        uXk/tsf/Q77Q/0O/0P9CvtD/Qr7Q/0O+0P9Dv9D/Qr7Q/0O+0P9DvtD/ScHR/////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Ae/5+vldx9b/SMDQ/0jA0P9IwND/SMDQ/3/S3/+s4ur/m9zl/4vX
+        4v9ZxdX/PrjJ/zusu/45qbmvOKe3QDiptk07qbnQO6y9/0C8zf9Bvc//Qb7P/0K+0P9Bvc//Rr7Q/0jA
+        0P9IwND/SMDQ/0jA0P9YxdX/htXg9v///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8C5fb5+3vQ3f/Q7vP/wurv/7Lk6/+i3uf/ktnk/3/S
+        3/9oytn/V8TU/07C0v9JwNH/RL7Q/0G9z/9LwdL/g9Tg+f///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B8vf7POr3+d7U7/T/rOLq/47X4v+H1OD/htXg/4jV4P+h3eb/uuft/7zo
+        7dqv4eYz////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAAAAAAAAAAEAAAAAAAAAAAA
+        AAAAAAAAAAAAAAgAAAACAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAACAgAAAAAAAAEIAAAAAAAJAQkAAAAAAAA
+        AQAAAAAAAkBAkgAAAAAABAAgCAAAAAACAAAAAAAAAABUACAAAAAAEAAAAAAAAAADAIAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="dosyaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="vKEHesabıToolStripMenuItem.Text" xml:space="preserve">
+    <value>VKE Hesabı</value>
+  </data>
+  <data name="&gt;&gt;lbl_cins.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_dt.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;txt_boy.Name" xml:space="preserve">
+    <value>txt_boy</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>..... </value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>..... kg</value>
+  </data>
+  <data name="txt_yil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="çıkışToolStripMenuItem.Text" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_yil.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vKEHesaplanmasıToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>492, 280</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_vki.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_boy.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="hakkındaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="idealKiloHesabıToolStripMenuItem.Text" xml:space="preserve">
+    <value>İdeal Kilo Hesabı</value>
+  </data>
+  <data name="textBox2.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="vKEHesabıToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_dt.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_vki.Name" xml:space="preserve">
+    <value>lbl_vki</value>
+  </data>
+  <data name="lbl_boy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 55</value>
+  </data>
+  <data name="&gt;&gt;txt_yil.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_boy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="txt_yil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 80</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 179</value>
+  </data>
+  <data name="txt_yil.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_boy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="&gt;&gt;idealKiloHesabıToolStripMenuItem.Name" xml:space="preserve">
+    <value>idealKiloHesabıToolStripMenuItem</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_boy.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_boy.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lbl_cins.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cmb_cins.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 28</value>
+  </data>
+  <data name="lbl_cins.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="idealKiloHesabıToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="lbl_boy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="lbl_boy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 50</value>
+  </data>
+  <data name="&gt;&gt;txt_yil.Name" xml:space="preserve">
+    <value>txt_yil</value>
+  </data>
+  <data name="&gt;&gt;txt_kilo.Name" xml:space="preserve">
+    <value>txt_kilo</value>
+  </data>
+  <data name="lbl_cins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lbl_kilo.Text" xml:space="preserve">
+    <value>Kilo  (kg)  :</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 133</value>
+  </data>
+  <data name="&gt;&gt;dosyaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="hakkındaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="txt_boy.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;hakkındaToolStripMenuItem1.Name" xml:space="preserve">
+    <value>hakkındaToolStripMenuItem1</value>
+  </data>
+  <data name="lbl_vki.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_kilo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_vki.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txt_kilo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmb_cins.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_cins.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;hakkındaToolStripMenuItem.Name" xml:space="preserve">
+    <value>hakkındaToolStripMenuItem</value>
+  </data>
+  <data name="lbl_vki.Text" xml:space="preserve">
+    <value>Vücut Kitle Endeksi :</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="çıkışToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="&gt;&gt;dosyaToolStripMenuItem.Name" xml:space="preserve">
+    <value>dosyaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Sonuç :</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_dt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="vKEHesaplanmasıToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="lbl_kilo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_kilo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 55</value>
+  </data>
+  <data name="hakkındaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="&gt;&gt;vKEHesabıToolStripMenuItem.Name" xml:space="preserve">
+    <value>vKEHesabıToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;lbl_boy.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_boy.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbl_cins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 109</value>
+  </data>
+  <data name="&gt;&gt;lbl_dt.Name" xml:space="preserve">
+    <value>lbl_dt</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="cmb_cins.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmb_cins.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 14</value>
+  </data>
+  <data name="lbl_kilo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;hakkındaToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmb_cins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 106</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_cins.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Max. İdeal Kilonuz :</value>
+  </data>
+  <data name="lbl_vki.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="&gt;&gt;idealKiloHesabıToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="txt_kilo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;çıkışToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_boy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 25</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 14</value>
+  </data>
+  <data name="&gt;&gt;lbl_kilo.Name" xml:space="preserve">
+    <value>lbl_kilo</value>
+  </data>
+  <data name="&gt;&gt;resetToolStripMenuItem.Name" xml:space="preserve">
+    <value>resetToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="resetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="txt_yil.Text" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="&gt;&gt;lbl_boy.Name" xml:space="preserve">
+    <value>lbl_boy</value>
+  </data>
+  <data name="&gt;&gt;txt_boy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 83</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>476, 241</value>
+  </data>
+  <data name="lbl_dt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 83</value>
+  </data>
+  <data name="&gt;&gt;lbl_kilo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lbl_vki.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 167</value>
+  </data>
+  <data name="hakkındaToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="&gt;&gt;lbl_vki.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_cins.Name" xml:space="preserve">
+    <value>lbl_cins</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_kilo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 52</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 55</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lbl_dt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Sonuçlar :</value>
+  </data>
+  <data name="lbl_boy.Text" xml:space="preserve">
+    <value>Boy   (cm)  :</value>
+  </data>
+  <data name="&gt;&gt;resetToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dosyaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;txt_kilo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_dt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Değerleri Giriniz : </value>
+  </data>
+  <data name="cmb_cins.Text" xml:space="preserve">
+    <value>Seçiniz :</value>
+  </data>
+  <data name="lbl_kilo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>492, 280</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>46</value>
+  </metadata>
+</root>
